@@ -1,0 +1,34 @@
+.benefits {
+
+    min-height: 230px !important;
+
+    background: linear-gradient(rgba(black, 0.8), rgba(black, 0.8)),
+        url(../images/bg_2.jpg);
+    background-size: cover;
+
+    .benefits__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit-box {
+        margin-top: 65px;
+        width: 60px;
+        height: 60px;
+        border: 2px solid $orange;
+        padding: 12px;
+    }
+
+    .benefits_item__number {
+        color: $orange;
+        font-size: 1.9rem;
+        font-style: $poppins;
+    }
+
+    .benefits_item__description {
+        color: $gray;
+        font-size: 0.88rem;
+        font-style: $poppins;
+    }
+}

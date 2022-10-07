@@ -1,0 +1,26 @@
+.homepage_menu {
+    min-height: 600px !important;
+    background: url(../images/bg_4.jpg);
+    background-size: cover;
+
+    .test {
+        border: 2px dashed blue;
+    }
+
+    button {
+        cursor: pointer;
+        width: auto;
+        height: 55px;
+        font-size: 1.12em;
+        font-style: $poppins;
+        border: 1px solid $orange;
+        background-color: transparent;
+        color: $orange;
+        padding: 10px;
+
+        &:hover {
+            color: black;
+            background-color: $orange;
+        }
+    }
+}
