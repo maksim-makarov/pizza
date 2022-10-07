@@ -128,8 +128,11 @@ header li {
   background: url(../images/bg_4.jpg);
   background-size: cover;
 }
-.homepage_menu .test {
-  border: 2px dashed blue;
+.homepage_menu .homepage_menu__img {
+  min-height: 300px;
+  background-image: url(../images/about.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 .homepage_menu button {
   cursor: pointer;
@@ -144,6 +147,39 @@ header li {
 }
 .homepage_menu button:hover {
   color: black;
+  background-color: #fac564;
+}
+.homepage_menu .homepage_menu__item {
+  justify-items: center;
+}
+.homepage_menu .homepage_menu__item img {
+  width: 70%;
+  border-radius: 50%;
+}
+.homepage_menu .homepage_menu__item h5 {
+  font-size: 1.4em;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+.homepage_menu .homepage_menu__item .home_menu__item__description {
+  color: #808080;
+  font-family: "Poppins", sans-serif;
+}
+.homepage_menu .homepage_menu__item .home_menu__item__price {
+  color: #fac564;
+  font-family: "Poppins", sans-serif;
+}
+.homepage_menu .homepage_menu__item button {
+  width: 100px;
+  height: 35px;
+  color: white;
+  border-color: white;
+  font-size: 0.81em;
+  margin-bottom: 20px;
+}
+.homepage_menu .homepage_menu__item button:hover {
+  color: black;
+  border-color: #fac564;
   background-color: #fac564;
 }
 
