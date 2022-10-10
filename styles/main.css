@@ -7,6 +7,10 @@ body {
   padding-top: 71px;
 }
 
+li {
+  list-style: none;
+}
+
 header .navbar-brand {
   width: 90px;
 }
@@ -181,6 +185,64 @@ header li {
   color: black;
   border-color: #fac564;
   background-color: #fac564;
+}
+
+footer {
+  background-color: black;
+  min-height: 300px;
+  padding: 100px 0;
+  color: #808080;
+}
+footer h6 {
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 40px;
+  color: white;
+}
+footer .social div {
+  margin-top: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(77, 77, 77);
+  border-radius: 50%;
+}
+footer .social img {
+  width: 60%;
+}
+footer .social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+footer .footer__blog__item {
+  height: auto;
+}
+footer .footer__blog__item p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+footer .footer__blog__item img {
+  object-fit: contain;
+  margin-right: 20px;
+}
+footer .footer__blog__item li {
+  font-size: 0.75em;
+}
+footer .footer__blog__item li img {
+  width: 11px;
+  margin-right: 5px;
+  font-style: "Poppins", sans-serif;
+}
+footer .footer__questions li {
+  display: flex;
+}
+footer .footer__questions li img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */
