@@ -1,10 +1,7 @@
 .homepage_menu {
     min-height: 600px !important;
-    background: url(../images/bg_4.jpg);
-    background-size: cover;
 
     .homepage_menu__img {
-        // border: 2px dashed yellow;
         min-height: 300px;
         background-image: url(../images/about.jpg);
         background-size: cover;
@@ -29,7 +26,6 @@
     }
 
     .homepage_menu__item {
-        // border: 2px dashed red;
         justify-items: center;
 
         img {

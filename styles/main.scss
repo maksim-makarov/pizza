@@ -15,6 +15,9 @@ $brown: #5c3d03;
 
 body {
     padding-top: 71px;
+    background-image: url(../images/bg_4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 li {
@@ -26,3 +29,4 @@ li {
 @import 'benefits';
 @import 'homepage_menu';
 @import 'footer';
+@import 'menu__title';

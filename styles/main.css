@@ -5,6 +5,9 @@
 
 body {
   padding-top: 71px;
+  background-image: url(../images/bg_4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 li {
@@ -129,8 +132,6 @@ header li {
 
 .homepage_menu {
   min-height: 600px !important;
-  background: url(../images/bg_4.jpg);
-  background-size: cover;
 }
 .homepage_menu .homepage_menu__img {
   min-height: 300px;
@@ -243,6 +244,47 @@ footer .footer__questions li img {
   height: 15px;
   margin-right: 10px;
   margin-top: 5px;
+}
+
+.menu__title {
+  width: 50%;
+  margin: 80px auto;
+}
+.menu__title h1 {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.9em;
+  margin-bottom: 25px;
+}
+.menu__title p {
+  color: #808080;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu__gallery h2 {
+  font-size: 1.3em;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+.menu__gallery p {
+  color: #808080;
+}
+.menu__gallery .price {
+  color: #fac564;
+}
+.menu__gallery button {
+  width: 60px;
+  height: 35px;
+  color: white;
+  border: 1px solid white;
+  font-size: 0.81em;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+.menu__gallery button:hover {
+  color: black;
+  border-color: #fac564;
+  background-color: #fac564;
 }
 
 /*# sourceMappingURL=main.css.map */

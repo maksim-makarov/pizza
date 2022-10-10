@@ -1,0 +1,51 @@
+.menu__title {
+    width: 50%;
+    margin: 80px auto;
+
+    h1 {
+        color: white;
+        font-family: $josefin;
+        font-size: 1.9em;
+        margin-bottom: 25px;
+    }
+
+    p {
+        color: $gray;
+        font-family: $poppins;
+
+    }
+
+
+}
+
+.menu__gallery {
+    h2 {
+        font-size: 1.3em;
+        color: white;
+        font-family: $josefin;
+    }
+
+    p {
+        color: $gray;
+    }
+
+    .price {
+        color: $orange;
+    }
+
+    button {
+        width: 60px;
+        height: 35px;
+        color: white;
+        border: 1px solid white;
+        font-size: 0.81em;
+        margin-bottom: 20px;
+        background-color: transparent;
+
+        &:hover {
+            color: black;
+            border-color: $orange;
+            background-color: $orange;
+        }
+    }
+}
