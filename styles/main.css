@@ -261,6 +261,14 @@ footer .footer__questions li img {
   font-family: "Poppins", sans-serif;
 }
 
+.menu__gallery .menu__gallery__block {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+.menu__gallery .menu__gallery__block img {
+  width: 100%;
+}
 .menu__gallery h2 {
   font-size: 1.3em;
   color: white;
