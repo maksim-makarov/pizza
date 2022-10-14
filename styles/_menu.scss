@@ -11,7 +11,7 @@
     }
 
     p {
-        color: $gray;
+        color: $grey;
         font-family: $poppins;
 
     }
@@ -40,7 +40,7 @@
     }
 
     p {
-        color: $gray;
+        color: $grey;
     }
 
     .price {
@@ -65,7 +65,7 @@
 }
 
 .menu__pricing__title {
-    .bar {
+    .line {
         width: 40px;
         height: 1px;
         background-color: $orange;
@@ -105,7 +105,7 @@
     }
 
     p {
-        color: $gray;
+        color: $grey;
         font-family: $poppins;
         font-size: 0.95em;
     }
@@ -116,7 +116,5 @@
             width: 60px;
             margin-right: 16px;
         }
-
-
     }
 }

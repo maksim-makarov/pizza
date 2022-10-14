@@ -114,8 +114,8 @@ header li {
 }
 .benefits .benefit-box {
   margin-top: 65px;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border: 2px solid #fac564;
   padding: 12px;
 }
@@ -193,6 +193,10 @@ footer {
   min-height: 300px;
   padding: 100px 0;
   color: #808080;
+}
+footer a {
+  text-decoration: none;
+  color: white;
 }
 footer h6 {
   font-family: "Josefin Sans", sans-serif;
@@ -298,7 +302,7 @@ footer .footer__questions li img {
   background-color: #fac564;
 }
 
-.menu__pricing__title .bar {
+.menu__pricing__title .line {
   width: 40px;
   height: 1px;
   background-color: #fac564;
@@ -339,6 +343,80 @@ footer .footer__questions li img {
   border-radius: 50%;
   width: 60px;
   margin-right: 16px;
+}
+
+.services {
+  background-image: url(../images/food.png);
+  height: auto;
+  background-attachment: fixed;
+}
+.services h1 {
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.9em;
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+.services p {
+  color: #5c3d03;
+  font-family: "Poppins", sans-serif;
+  width: 60%;
+  margin-bottom: 70px;
+}
+
+.services__item .services-box {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #e19812;
+  padding: 12px;
+  margin-bottom: 30px;
+}
+.services__item h2 {
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.125em;
+}
+.services__item .service__description {
+  color: #5c3d03;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+  width: 100%;
+}
+
+.blog__title {
+  width: 50%;
+  margin: 80px auto;
+}
+.blog__title h1 {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.9em;
+  margin-bottom: 25px;
+}
+.blog__title p {
+  color: #808080;
+  font-family: "Poppins", sans-serif;
+}
+
+.blog__item {
+  margin-bottom: 50px;
+}
+.blog__item h2 {
+  font-size: 1.125em;
+  color: white;
+  font-style: "Josefin Sans", sans-serif;
+}
+.blog__item p {
+  color: #808080;
+  font-size: 0.9em;
+  font-family: "Poppins", sans-serif;
+}
+.blog__item .blog__item__img {
+  height: 270px;
+}
+.blog__item .blog__item__date img {
+  width: 12px;
+  height: 12px;
 }
 
 /*# sourceMappingURL=main.css.map */
