@@ -246,17 +246,20 @@ footer .footer__questions li img {
   margin-top: 5px;
 }
 
-.menu__title {
+.menu__title,
+.menu__pricing__title {
   width: 50%;
   margin: 80px auto;
 }
-.menu__title h1 {
+.menu__title h1,
+.menu__pricing__title h1 {
   color: white;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.9em;
   margin-bottom: 25px;
 }
-.menu__title p {
+.menu__title p,
+.menu__pricing__title p {
   color: #808080;
   font-family: "Poppins", sans-serif;
 }
@@ -293,6 +296,49 @@ footer .footer__questions li img {
   color: black;
   border-color: #fac564;
   background-color: #fac564;
+}
+
+.menu__pricing__title .bar {
+  width: 40px;
+  height: 1px;
+  background-color: #fac564;
+  margin: 0 8px;
+}
+.menu__pricing__title .square-small {
+  width: 8px;
+  height: 8px;
+  background-color: #fac564;
+}
+.menu__pricing__title .square-big {
+  width: 12px;
+  height: 12px;
+  background-color: #fac564;
+}
+.menu__pricing__title .square-big,
+.menu__pricing__title .square-small {
+  transform: rotateZ(45deg);
+  margin: 0 4px;
+}
+
+.menu__pricing__table h3 {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  border-bottom: 1px dashed #fac564;
+  width: 90%;
+  font-size: 1.125em;
+}
+.menu__pricing__table .price {
+  color: #fac564;
+}
+.menu__pricing__table p {
+  color: #808080;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.95em;
+}
+.menu__pricing__table .menu__pricing__table__pizza img {
+  border-radius: 50%;
+  width: 60px;
+  margin-right: 16px;
 }
 
 /*# sourceMappingURL=main.css.map */
