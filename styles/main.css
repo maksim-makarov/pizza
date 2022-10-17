@@ -419,4 +419,76 @@ footer .footer__questions li img {
   height: 12px;
 }
 
+.features {
+  background-color: black;
+  height: auto;
+}
+.features .features__items {
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+  .features .features__items {
+    padding-left: 160px;
+  }
+}
+.features .features__item {
+  padding-left: 30px;
+}
+@media (min-width: 1200px) {
+  .features .features__item {
+    padding: 0;
+  }
+}
+.features .features__item img {
+  width: 18px;
+  height: 18px;
+  margin-right: 15px;
+}
+.features .features__item h2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  font-size: 1em;
+}
+.features .features__item p {
+  font-family: "Poppins", sans-serif;
+  color: #808080;
+  font-size: 0.95em;
+}
+.features .features__social {
+  background-color: #fac564;
+  min-height: 100px;
+}
+.features .features__social img {
+  width: 30px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+article h3 {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.9em;
+}
+article h3 span {
+  color: #fac564;
+}
+article h3 span:before {
+  content: "";
+  background-image: url(../images/pizza_orange.png);
+  background-size: 100% 100%;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+article p {
+  color: #808080;
+  font-family: "Poppins", sans-serif;
+}
+
 /*# sourceMappingURL=main.css.map */
