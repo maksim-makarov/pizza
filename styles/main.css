@@ -491,4 +491,59 @@ article p {
   font-family: "Poppins", sans-serif;
 }
 
+.contact {
+  color: white;
+  background-color: black;
+}
+.contact h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+.contact .form-group {
+  height: 55px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid #808080;
+  margin-bottom: 20px;
+}
+.contact .form-group:last-of-type {
+  height: 80px;
+}
+.contact textarea {
+  height: auto;
+}
+.contact input,
+.contact textarea {
+  width: 100%;
+  border-width: 0;
+  background-color: black;
+  color: #fac564;
+  margin-bottom: 10px;
+}
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: white;
+}
+.contact input:focus-visible,
+.contact textarea:focus-visible {
+  outline-width: 0;
+}
+.contact .invalid::placeholder {
+  color: red;
+}
+.contact button {
+  background-color: #fac564;
+  color: black;
+  border-color: #fac564;
+  transition: 0.5s;
+  width: 100px;
+  height: 60px;
+  font-family: "Poppins", sans-serif;
+}
+.contact button:hover {
+  background-color: transparent;
+  color: #fac564;
+}
+
 /*# sourceMappingURL=main.css.map */
