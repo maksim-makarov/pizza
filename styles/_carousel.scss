@@ -30,7 +30,6 @@
     }
 
     p:last-of-type {
-        font-family: $poppins;
         color: white;
     }
 
@@ -39,7 +38,7 @@
         width: 120px;
         height: 55px;
         font-size: .82em;
-        font-style: $poppins;
+        // font-style: $poppins;
         border: 1px solid;
     }
 

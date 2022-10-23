@@ -13,7 +13,7 @@
         width: auto;
         height: 55px;
         font-size: 1.12em;
-        font-style: $poppins;
+        // font-style: $poppins;
         border: 1px solid $orange;
         background-color: transparent;
         color: $orange;
@@ -42,12 +42,10 @@
 
         .home_menu__item__description {
             color: $grey;
-            font-family: $poppins;
         }
 
         .home_menu__item__price {
             color: $orange;
-            font-family: $poppins;
 
         }
 

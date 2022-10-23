@@ -2,15 +2,18 @@ $josefin: 'Josefin Sans',
 sans-serif;
 $nothing: 'Nothing You Could Do',
 cursive;
-$poppins: 'Poppins',
-sans-serif;
+// $poppins: 'Poppins',
+// sans-serif;
 $orange: #fac564;
 $grey: #808080;
 $brown: #5c3d03;
 
+
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {

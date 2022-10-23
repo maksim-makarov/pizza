@@ -11,8 +11,6 @@
 
     p {
         color: $grey;
-        font-family: $poppins;
-
     }
 
 
@@ -24,13 +22,12 @@
     h2 {
         font-size: 1.125em;
         color: white;
-        font-style: $josefin;
+        font-family: $josefin;
     }
 
     p {
         color: $grey;
         font-size: 0.9em;
-        font-family: $poppins;
     }
 
     .blog__item__img {

@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -37,7 +38,6 @@ header .nav-link:hover {
 }
 header li {
   min-width: 85px;
-  font-family: "Poppins", sans-serif;
   font-size: 0.875em;
 }
 
@@ -66,7 +66,6 @@ header li {
   color: white;
 }
 .carousel p:last-of-type {
-  font-family: "Poppins", sans-serif;
   color: white;
 }
 .carousel .button {
@@ -74,7 +73,6 @@ header li {
   width: 120px;
   height: 55px;
   font-size: 0.82em;
-  font-style: "Poppins", sans-serif;
   border: 1px solid;
 }
 .carousel .button__order {
@@ -122,12 +120,10 @@ header li {
 .benefits .benefits_item__number {
   color: #fac564;
   font-size: 1.9rem;
-  font-style: "Poppins", sans-serif;
 }
 .benefits .benefits_item__description {
   color: #808080;
   font-size: 0.88rem;
-  font-style: "Poppins", sans-serif;
 }
 
 .homepage_menu {
@@ -144,7 +140,6 @@ header li {
   width: auto;
   height: 55px;
   font-size: 1.12em;
-  font-style: "Poppins", sans-serif;
   border: 1px solid #fac564;
   background-color: transparent;
   color: #fac564;
@@ -168,11 +163,9 @@ header li {
 }
 .homepage_menu .homepage_menu__item .home_menu__item__description {
   color: #808080;
-  font-family: "Poppins", sans-serif;
 }
 .homepage_menu .homepage_menu__item .home_menu__item__price {
   color: #fac564;
-  font-family: "Poppins", sans-serif;
 }
 .homepage_menu .homepage_menu__item button {
   width: 100px;
@@ -197,9 +190,9 @@ footer {
 footer a {
   text-decoration: none;
   color: white;
+  font-family: "Josefin Sans", sans-serif;
 }
 footer h6 {
-  font-family: "Josefin Sans", sans-serif;
   margin-bottom: 40px;
   color: white;
 }
@@ -238,7 +231,6 @@ footer .footer__blog__item li {
 footer .footer__blog__item li img {
   width: 11px;
   margin-right: 5px;
-  font-style: "Poppins", sans-serif;
 }
 footer .footer__questions li {
   display: flex;
@@ -265,7 +257,6 @@ footer .footer__questions li img {
 .menu__title p,
 .menu__pricing__title p {
   color: #808080;
-  font-family: "Poppins", sans-serif;
 }
 
 .menu__gallery .menu__gallery__block {
@@ -336,7 +327,6 @@ footer .footer__questions li img {
 }
 .menu__pricing__table p {
   color: #808080;
-  font-family: "Poppins", sans-serif;
   font-size: 0.95em;
 }
 .menu__pricing__table .menu__pricing__table__pizza img {
@@ -359,7 +349,6 @@ footer .footer__questions li img {
 }
 .services p {
   color: #5c3d03;
-  font-family: "Poppins", sans-serif;
   width: 60%;
   margin-bottom: 70px;
 }
@@ -378,7 +367,6 @@ footer .footer__questions li img {
 }
 .services__item .service__description {
   color: #5c3d03;
-  font-family: "Poppins", sans-serif;
   font-size: 0.8em;
   width: 100%;
 }
@@ -395,7 +383,6 @@ footer .footer__questions li img {
 }
 .blog__title p {
   color: #808080;
-  font-family: "Poppins", sans-serif;
 }
 
 .blog__item {
@@ -404,12 +391,11 @@ footer .footer__questions li img {
 .blog__item h2 {
   font-size: 1.125em;
   color: white;
-  font-style: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 .blog__item p {
   color: #808080;
   font-size: 0.9em;
-  font-family: "Poppins", sans-serif;
 }
 .blog__item .blog__item__img {
   height: 270px;
@@ -451,7 +437,6 @@ footer .footer__questions li img {
   font-size: 1em;
 }
 .features .features__item p {
-  font-family: "Poppins", sans-serif;
   color: #808080;
   font-size: 0.95em;
 }
@@ -488,7 +473,6 @@ article h3 span:before {
 }
 article p {
   color: #808080;
-  font-family: "Poppins", sans-serif;
 }
 
 .contact {
@@ -503,7 +487,6 @@ article p {
 .contact .form-group {
   height: 55px;
   color: white;
-  font-family: "Poppins", sans-serif;
   border-bottom: 1px solid #808080;
   margin-bottom: 20px;
 }
@@ -539,7 +522,6 @@ article p {
   transition: 0.5s;
   width: 100px;
   height: 60px;
-  font-family: "Poppins", sans-serif;
 }
 .contact button:hover {
   background-color: transparent;
